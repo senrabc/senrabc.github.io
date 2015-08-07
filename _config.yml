@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : senrabc github.io site
-tagline: Site Tagline - INeedToGetOneOfTheseApparently
-author : Christopher P. Barnes
-  name : Name Lastname
-  email : senrabc@gmail.com
-  github : senrabc
-  twitter : @senrabc
-  feedburner : feedname-INeedToGetOneOfTheseApparently
+title: "senrabc github.io site"
+tagline: "Site Tagline - INeedToGetOneOfTheseApparently"
+author: "Christopher P. Barnes"
+name: "Christopher P. Barnes"
+email: senrabc@gmail.com
+github: senrabc
+twitter: @senrabc
+feedburner: "feedname-INeedToGetOneOfTheseApparently"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
