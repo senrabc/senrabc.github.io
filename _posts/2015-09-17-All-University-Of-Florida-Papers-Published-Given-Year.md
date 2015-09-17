@@ -1,12 +1,21 @@
-
-
 ---
 layout: post
 title:  "All University of Florida papers published in journals for a given year."
 date:   2015-09-17 14:00:45
-categories: VIVO, SPARQL, Linked Open Data
+categories: VIVO
 ---
-I got a request for a count of papers at UF by year for the last few years so a hacked up one of mconlon17's sparql examples. Check him out here at [mconlon17's GitHub repo][mconlon17-gh]. 
+I recently received a request for a count of papers at UF by year for the last few years so a hacked up one of mconlon17's sparql examples. Check him out here at [mconlon17's GitHub repo][mconlon17-gh]. Check out the CSV file output for the query, for the years 2010-2014. The CSV data files contain the URI of the publication, the ISSN of the journal it was publshed in and the title of the article. 
+
+[UF-2010-AllJournalPapers.csv](../../../../files/UF-2010-AllJournalPapers.csv)
+
+[UF-2011-AllJournalPapers.csv](../../../../files/UF-2011-AllJournalPapers.csv)
+
+[UF-2012-AllJournalPapers.csv](../../../../files/UF-2012-AllJournalPapers.csv)
+
+[UF-2013-AllJournalPapers.csv](../../../../files/UF-2013-AllJournalPapers.csv)
+
+[UF-2014-AllJournalPapers.csv](../../../../files/UF-2014-AllJournalPapers.csv)
+
 
 SPARQL code snippets:
 
@@ -47,7 +56,7 @@ WHERE {
 	?uri a bibo:AcademicArticle .
 	?uri vivo:dateTimeValue ?dtv .
 	?dtv vivo:dateTime ?dt .
-	FILTER (regex(?dt,"^2015"))
+	FILTER (regex(?dt,"^2014"))
 	?uri vivo:hasPublicationVenue ?journal .
 	?journal bibo:issn ?issn .
         ?journal rdfs:label ?jname .
@@ -56,9 +65,5 @@ WHERE {
 {% endhighlight %}
 
 
-Check out the CSV file output for the above query, for the years 2010-2015 here. The CSV data files contain the URI of the publication, the ISSN of the journal it was publshed in and the title of the article. 
 
-
-[UF VIVO]:      http://vivo.ufl.edu
-[mconlon17-gh]:   https://github.com/mconlon17
 
