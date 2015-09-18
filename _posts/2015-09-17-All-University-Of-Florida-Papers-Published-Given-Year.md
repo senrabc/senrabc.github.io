@@ -4,7 +4,7 @@ title:  "Dataset, all University of Florida papers published in journals for a g
 date:   2015-09-17 14:00:45
 categories: VIVO
 ---
-I recently received a request for a count of papers at UF by year for the last few years so I hacked up one of mconlon17's SPARQL examples and made some data sets to share. All comments and requests welcome. I'd love your feedback on if these are useful. Check mconlon17 out here at [mconlon17's GitHub repo][mconlon17-gh]. Check out the CSV file output for the query, for the years 2010-2014. The data files contain the URI of the publication, the ISSN of the journal it was published in and the title of the article. Enjoy!
+I recently received a request for a count of papers at UF by year for the last few years so I hacked up one of mconlon17's SPARQL examples and made some data sets to share. All comments and requests welcome. I'd love your feedback on if these are useful. Check mconlon17 out here at [mconlon17's GitHub repo](http://mconlon17.github.io) . Check out the CSV file output for the query, for the years 2010-2014. The data files contain the URI of the publication, the ISSN of the journal it was published in and the title of the article. Enjoy!
 
 [UF-2010-AllJournalPapers.csv](../../../../files/UF-2010-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2010-AllJournalPapers.json](../../../../files/UF-2010-AllJournalPapers.json)&nbsp;&nbsp;[UF-2010-AllJournalPapers.rdf](../../../../files/UF-2010-AllJournalPapers.rdf)
 
