@@ -4,17 +4,17 @@ title:  "All University of Florida papers published in journals for a given year
 date:   2015-09-17 14:00:45
 categories: VIVO
 ---
-I recently received a request for a count of papers at UF by year for the last few years so a hacked up one of mconlon17's sparql examples. Check him out here at [mconlon17's GitHub repo][mconlon17-gh]. Check out the CSV file output for the query, for the years 2010-2014. The CSV data files contain the URI of the publication, the ISSN of the journal it was publshed in and the title of the article. 
+I recently received a request for a count of papers at UF by year for the last few years so a hacked up one of mconlon17's SPARQL examples. Check him out here at [mconlon17's GitHub repo][mconlon17-gh]. Check out the CSV file output for the query, for the years 2010-2014. The CSV data files contain the URI of the publication, the ISSN of the journal it was publshed in and the title of the article.
 
-[UF-2010-AllJournalPapers.csv](../../../../files/UF-2010-AllJournalPapers.csv)
+[UF-2010-AllJournalPapers.csv](../../../../files/UF-2010-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2010-AllJournalPapers.json](../../../../files/UF-2010-AllJournalPapers.json)&nbsp;&nbsp;[UF-2010-AllJournalPapers.rdf](../../../../files/UF-2010-AllJournalPapers.rdf)
 
-[UF-2011-AllJournalPapers.csv](../../../../files/UF-2011-AllJournalPapers.csv)
+[UF-2011-AllJournalPapers.csv](../../../../files/UF-2011-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2011-AllJournalPapers.json](../../../../files/UF-2011-AllJournalPapers.json)&nbsp;&nbsp;[UF-2011-AllJournalPapers.rdf](../../../../files/UF-2011-AllJournalPapers.rdf)
 
-[UF-2012-AllJournalPapers.csv](../../../../files/UF-2012-AllJournalPapers.csv)
+[UF-2012-AllJournalPapers.csv](../../../../files/UF-2012-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2012-AllJournalPapers.json](../../../../files/UF-2012-AllJournalPapers.json)&nbsp;&nbsp;[UF-2012-AllJournalPapers.rdf](../../../../files/UF-2012-AllJournalPapers.rdf)
 
-[UF-2013-AllJournalPapers.csv](../../../../files/UF-2013-AllJournalPapers.csv)
+[UF-2013-AllJournalPapers.csv](../../../../files/UF-2013-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2013-AllJournalPapers.json](../../../../files/UF-2013-AllJournalPapers.json)&nbsp;&nbsp;[UF-2013-AllJournalPapers.rdf](../../../../files/UF-2013-AllJournalPapers.rdf)
 
-[UF-2014-AllJournalPapers.csv](../../../../files/UF-2014-AllJournalPapers.csv)
+[UF-2014-AllJournalPapers.csv](../../../../files/UF-2014-AllJournalPapers.csv)&nbsp;&nbsp;[UF-2014-AllJournalPapers.json](../../../../files/UF-2014-AllJournalPapers.json)&nbsp;&nbsp;[UF-2014-AllJournalPapers.rdf](../../../../files/UF-2014-AllJournalPapers.rdf)
 
 
 SPARQL code snippets:
@@ -49,7 +49,7 @@ PREFIX scires:   <http://vivoweb.org/ontology/scientific-research#>
 
 #
 #
-# Find papers published in 2014 
+# Find papers published in 2014
 
 SELECT ?uri ?issn ?jname ?atitle
 WHERE {
@@ -63,7 +63,3 @@ WHERE {
         ?uri rdfs:label ?atitle .
 	}
 {% endhighlight %}
-
-
-
-
