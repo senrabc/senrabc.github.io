@@ -8,6 +8,8 @@ So it occurred to me on my quest to share data that some people, including me, w
 
 Enjoy!
 
+PS: you can get the SPARQL query I used and download all this data as JSON, RDF or CSV right [here](http://senrabc.github.io/vivo/2015/09/17/All-University-Of-Florida-Papers-Published-Given-Year.html)
+
 View all UF papers published in journals from 2010-2014 in your browser.
 ---
 
