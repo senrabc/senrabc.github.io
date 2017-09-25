@@ -4,7 +4,6 @@ title:  "How to get a list of all your journals out of VIVO with URI and ISSN"
 date:   2015-09-25 12:27:45
 categories: VIVO,  Examples
 ---
-
 So. This is is a quick post on a useful SPARQL query to get a list of all your journals in your VIVO. We are working on a report that shows H-Index values changing over time and one of the first things the analysts wanted was a list of all the journals with a convenient identifier like ISSN. So here it is. Thanks for reading.
 
 {% highlight sparql %}
