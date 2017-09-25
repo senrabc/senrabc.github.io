@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to get a list of all your journals out of VIVO with URI and ISSN"
-date:   2015-09-125 12:27:45
+date:   2015-09-25 12:27:45
 categories: VIVO,  Examples
 ---
 
